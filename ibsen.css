@@ -1,0 +1,78 @@
+.speech {
+    font-family: cursive;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .direction {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: black;
+    background-color: lightgrey;
+  }
+  
+  .direction:hover {
+    color: yellow;
+    background-color: lightskyblue;
+  }
+  
+  .peter {
+    color: blue;
+    font-size: 18px;
+  }
+  
+  .Hovstad {
+    color: slateblue;
+    font-size: 18px;
+  }
+  .mrs {
+    color: blue;
+    font-size: 18px;
+  }
+  
+  .actor_table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .actor_table th {
+    background-color: #333;
+    color: white;
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .actor_table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .actor_table tbody tr:nth-child(odd) {
+    background-color: #e6e6e6;
+  }
+  
+  .actor_table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  h5:hover {
+    color: orange;
+    border: dotted 2px azure;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+  
+  img {
+    height: 25px;
+  }
+  
+  nav {
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  nav a {
+    margin-right: 15px;
+  }
+  
