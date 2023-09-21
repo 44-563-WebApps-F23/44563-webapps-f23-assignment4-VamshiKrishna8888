@@ -62,17 +62,58 @@
     border: dotted 2px azure;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   }
-  
-  img {
-    height: 25px;
-  }
-  
-  nav {
-    display: flex;
-    margin-top: 15px;
-  }
-  
-  nav a {
-    margin-right: 15px;
-  }
-  
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* Content container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Icons */
+.icon {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+/* Image */
+.main-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
